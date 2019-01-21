@@ -87,6 +87,11 @@ public class ParkirApp extends javax.swing.JFrame {
         hargaParkir.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
 
         lamaParkir.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        lamaParkir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lamaParkirActionPerformed(evt);
+            }
+        });
 
         jamMasuk.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jamMasuk.addActionListener(new java.awt.event.ActionListener() {
@@ -227,8 +232,8 @@ public class ParkirApp extends javax.swing.JFrame {
 
     private void motorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_motorActionPerformed
         // TODO add your handling code here:
-         hargaParkir.setText("2000");
-         jamMasuk.setText("07.00 WIB");
+         hargaParkir.setText("5000");
+         jamMasuk.setText("08.00 WIB");
     }//GEN-LAST:event_motorActionPerformed
 
     private void NoKendaraanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoKendaraanActionPerformed
@@ -238,8 +243,8 @@ public class ParkirApp extends javax.swing.JFrame {
 
     private void MobilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MobilActionPerformed
         // TODO add your handling code here:
-        hargaParkir.setText("5000");
-        jamMasuk.setText("07.00 WIB");
+        hargaParkir.setText("10000");
+        jamMasuk.setText("08.00 WIB");
     }//GEN-LAST:event_MobilActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -267,6 +272,10 @@ public class ParkirApp extends javax.swing.JFrame {
         // TODO add your handling code here:
         
     }//GEN-LAST:event_jamMasukActionPerformed
+
+    private void lamaParkirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lamaParkirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lamaParkirActionPerformed
 
     /**
      * @param args the command line arguments

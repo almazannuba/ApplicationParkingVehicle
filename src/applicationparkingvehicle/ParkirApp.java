@@ -232,8 +232,8 @@ public class ParkirApp extends javax.swing.JFrame {
 
     private void motorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_motorActionPerformed
         // TODO add your handling code here:
-         hargaParkir.setText("5000");
-         jamMasuk.setText("08.00 WIB");
+         hargaParkir.setText("2000");
+         jamMasuk.setText("06.00 WIB");
     }//GEN-LAST:event_motorActionPerformed
 
     private void NoKendaraanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoKendaraanActionPerformed
@@ -243,8 +243,8 @@ public class ParkirApp extends javax.swing.JFrame {
 
     private void MobilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MobilActionPerformed
         // TODO add your handling code here:
-        hargaParkir.setText("10000");
-        jamMasuk.setText("08.00 WIB");
+        hargaParkir.setText("5000");
+        jamMasuk.setText("06.00 WIB");
     }//GEN-LAST:event_MobilActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
